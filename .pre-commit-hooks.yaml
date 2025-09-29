@@ -1,0 +1,6 @@
+- id: kustomize
+  name: kustomize
+  description: Test kustomize builds with kubectl
+  entry: kustomize
+  language: python
+  types: [yaml]
