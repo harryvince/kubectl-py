@@ -27,6 +27,7 @@ Sample `.pre-commit-config.yaml`:
   rev: v0.1.0
   hooks:
     - id: kustomize
+      pass_filenames: false
       args: [overlays/env]
 ```
 
